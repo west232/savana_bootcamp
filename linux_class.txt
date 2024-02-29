@@ -1,0 +1,21 @@
+mkdir -p /path/to/directory = create sub directories
+mkdir -p /path/to/directory/{a..z}/{"". "", "",} = create multiple files in the sub directory
+!! = repeat last command
+
+ctrl k = to cut
+ctrl j = paste the last cut words
+ctrl l = clear screen
+
+========= vi=================
+shift A = go to next line
+dd = delete line
+jj = to copy
+!bash = minimize vi 
+ctrl d = will return to the mininmized vi
+:%s/word_to_replease/word_to_repleace_with/g = search and replace words
+split = to split screen
+:q = close one of the screens
+set number = set numbers in vim
+set nonumber = unset numbers
+ctrl u = for visualization
+:x = exit file and save 
